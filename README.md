@@ -1,6 +1,6 @@
 # phant-meta-nedb [![Build Status](https://secure.travis-ci.org/sparkfun/phant-meta-nedb.png?branch=master)](http://travis-ci.org/sparkfun/phant-meta-nedb)
 
-nedb based phant metadata storage for phant development
+nedb based phant metadata storage for phant
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
