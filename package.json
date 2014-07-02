@@ -1,6 +1,6 @@
 {
   "name": "phant-meta-nedb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/phant-meta-nedb.js",
   "description": "sqlite metadata storage for phant",
   "homepage": "https://github.com/sparkfun/phant-meta-nedb",
