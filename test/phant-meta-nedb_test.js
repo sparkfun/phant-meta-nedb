@@ -1,6 +1,7 @@
 'use strict';
 
 var PhantMeta = require('../lib/phant-meta-nedb.js'),
+    _ = require('lodash'),
     meta = PhantMeta();
 
 exports.phantMeta = {
@@ -15,13 +16,15 @@ exports.phantMeta = {
       hidden: false
     };
 
+    var data2 = _.clone(data);
+
     meta.create(data, function(err, stream) {
 
       this.stream = stream;
 
-      data.title = 'unit test 2';
+      data2.title = 'unit test2';
 
-      meta.create(data, function(err, stream) {
+      meta.create(data2, function(err, stream) {
         done();
       });
 
