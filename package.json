@@ -1,6 +1,6 @@
 {
   "name": "phant-meta-nedb",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "lib/phant-meta-nedb.js",
   "description": "sqlite metadata storage for phant",
   "homepage": "https://github.com/sparkfun/phant-meta-nedb",
@@ -18,7 +18,8 @@
   "dependencies": {
     "async": "^0.9.0",
     "lodash": "^2.4.1",
-    "nedb": "^0.10.5"
+    "nedb": "^0.10.5",
+    "node-uuid": "^1.4.1"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
