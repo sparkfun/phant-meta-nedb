@@ -15,6 +15,9 @@
     "url": "git://github.com/sparkfun/phant-meta-nedb"
   },
   "license": "GPL-3.0",
+  "engines": {
+    "node": "^0.10.29"
+  },
   "dependencies": {
     "async": "^0.9.0",
     "lodash": "^2.4.1",
@@ -32,5 +35,17 @@
   },
   "scripts": {
     "test": "grunt"
+  },
+  "phantConfig": {
+    "name": "NeDB",
+    "options": [
+      {
+        "label": "Storage Directory Path",
+        "name": "directory",
+        "default": "phant_streams",
+        "type": "text",
+        "description": "The directory to store the db file in."
+      }
+    ]
   }
 }
